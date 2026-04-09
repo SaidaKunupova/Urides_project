@@ -4,6 +4,6 @@
 {"file":"map_cities"},
 {"file":"map_vehicle_types"},
 {"file":"map_ride_statuses"},
-{"file":"map_vehicle_makes},
+{"file":"map_vehicle_makes"},
 {"file":"bulk_rides"}
 ]
