@@ -1,10 +1,10 @@
 [
   {
     "city_id": 1,
-    "city": "New York",
+    "city": "Los Angeles",
     "state": "NY",
     "region": "Northeast",
-    "updated_at":"2026-04-25T20:37:33.430+00:00"
+    "updated_at":"2026-04-20T20:37:33.430+00:00"
     
   },
   {
