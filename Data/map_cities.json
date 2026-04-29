@@ -1,7 +1,7 @@
 [
   {
     "city_id": 1,
-    "city": "New1 Los Angeles",
+    "city": "Los Angeles",
     "state": "NY",
     "region": "Northeast",
     "updated_at":"2026-04-28T24:00:00.430+00:00"
@@ -9,7 +9,7 @@
   },
   {
     "city_id": 2,
-    "city": "New1 York",
+    "city": "New York",
     "state": "CA",
     "region": "West",
     "updated_at":"2026-04-28T24:00:00.430+00:00"
@@ -30,42 +30,42 @@
   },
   {
     "city_id": 5,
-    "city": "New1 Phoenix",
+    "city": "Phoenix",
     "state": "AZ",
     "region": "Southwest",
     "updated_at":"2026-04-28T24:00:00.430+00:00"
   },
   {
     "city_id": 6,
-    "city": "New1 Philadelphia",
+    "city": "Philadelphia",
     "state": "PA",
     "region": "Northeast",
     "updated_at":"2026-04-28T24:00:00.430+00:00"
   },
   {
     "city_id": 7,
-    "city": "New1 San Antonio",
+    "city": "San Antonio",
     "state": "TX",
     "region": "South",
     "updated_at":"2026-04-28T24:00:00.430+00:00"
   },
   {
     "city_id": 8,
-    "city": "New1 San Diego",
+    "city": "San Diego",
     "state": "CA",
     "region": "West",
     "updated_at":"2026-04-28T24:00:00.430+00:00"
   },
   {
     "city_id": 9,
-    "city": "New1 Dallas",
+    "city": "Dallas",
     "state": "TX",
     "region": "South",
     "uupdated_at":"2026-04-28T24:00:00.430+00:00"
   },
   {
     "city_id": 10,
-    "city": "New1 San Jose",
+    "city": "San Jose",
     "state": "CA",
     "region": "West",
     "updated_at":"2026-04-28T24:00:00.430+00:00"
