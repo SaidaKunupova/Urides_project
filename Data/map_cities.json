@@ -1,32 +1,32 @@
 [
   {
     "city_id": 1,
-    "city": "Los Angeles",
+    "city": " NEW Los Angeles",
     "state": "NY",
     "region": "Northeast",
-    "updated_at":"2026-04-28T24:00:00.430+00:00"
+    "updated_at":"2026-04-29T24:00:00.430+00:00"
     
   },
   {
     "city_id": 2,
-    "city": "New York",
+    "city": " NEW New York",
     "state": "CA",
     "region": "West",
-    "updated_at":"2026-04-28T24:00:00.430+00:00"
+    "updated_at":"2026-04-29T24:00:00.430+00:00"
   },
   {
     "city_id": 3,
-    "city": "Nalchik",
+    "city": " NEW Nalchik",
     "state": "IL",
     "region": "Midwest",
-    "updated_at":"2026-04-28T24:00:00.430+00:00"
+    "updated_at":"2026-04-29T24:00:00.430+00:00"
   },
   {
     "city_id": 4,
-    "city": "Houston",
+    "city": " NEW Houston",
     "state": "TX",
     "region": "South",
-    "updated_at":"2026-04-28T24:00:00.430+00:00"
+    "updated_at":"2026-04-29T24:00:00.430+00:00"
   },
   {
     "city_id": 5,
