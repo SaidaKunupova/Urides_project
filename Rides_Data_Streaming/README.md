@@ -1,21 +1,71 @@
-# U_rides_ingest
+# U-Rides Data Streaming Project
 
-This folder defines all source code for the 'U_rides_ingest' pipeline:
+This project contains the data engineering implementation for the U-Rides
+data streaming and ingestion pipeline.
 
-- `explorations`: Ad-hoc notebooks used to explore the data processed by this pipeline.
-- `transformations`: All dataset definitions and transformations.
-- `utilities`: Utility functions and Python modules used in this pipeline.
+## Project Structure
 
-## Getting Started
+### `Data/`
 
-To get started, go to the `transformations` folder -- most of the relevant source code lives there:
+Contains the JSON data and mapping files used by the project.
 
-* By convention, every dataset under `transformations` is in a separate file.
-* Take a look at the sample under "sample_users_u_rides_ingest.py" to get familiar with the syntax.
-  Read more about the syntax at https://docs.databricks.com/ldp/developer/python-ref.
-* Use `Run file` to run and preview a single transformation.
-* Use `Run pipeline` to run _all_ transformations in the entire pipeline.
-* Use `+ Add` in the file browser to add a new data set definition.
-* Use `Schedule` to run the pipeline on a schedule!
+The folder includes:
 
-For more tutorials and reference material, see https://docs.databricks.com/ldp.
+- `bulk_rides.json`
+- `map_cancellation_reasons.json`
+- `map_payment_methods.json`
+- `map_cities.json`
+- `map_vehicle_types.json`
+- `map_ride_statuses.json`
+- `map_vehicle_makes.json`
+
+### `Rides_Data_Streaming/`
+
+Contains the main U-Rides streaming pipeline artifacts and source code
+developed in Databricks.
+
+### `U_rides_ingest/`
+
+Contains supporting files from the original U-Rides ingestion development.
+
+It includes:
+
+- `exploration/` — sample and exploratory notebooks used during development
+- `utilities/` — utility files used by the project
+- `files_array.json` — list of JSON files used by the ingestion process
+- Additional supporting project files and documentation
+
+## Data Files Configuration
+
+The `files_array.json` file contains the list of data files used by the
+ingestion process.
+
+The configured files are:
+
+- `map_cancellation_reasons`
+- `map_payment_methods`
+- `map_cities`
+- `map_vehicle_types`
+- `map_ride_statuses`
+- `map_vehicle_makes`
+- `bulk_rides`
+
+## Security
+
+No secrets or credentials should be stored in this repository.
+
+ADLS Gen2 secret keys were removed from the exploration code before
+committing the project to GitHub.
+
+Authentication credentials and connection information should be provided
+through secure Databricks configuration or secret management mechanisms
+rather than being hard-coded in source code.
+
+## Development Environment
+
+The project was developed using:
+
+- Databricks
+- Python
+- PySpark
+- Git/GitHub
